@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Proyecto Flexbox</title>
+</head>
+
+<body>
+
+   <header>
+
+      <svg data-v-0eba5114="" data-v-22bcc472="" width="129" height="22" xmlns="http://www.w3.org/2000/svg"
+         class="logo">
+         <g data-v-0eba5114="" fill="currentColor" fill-rule="evenodd">
+            <path data-v-0eba5114=""
+               d="M8.711 11.936a15.33 15.33 0 0 0-1.625-1.643 33.124 33.124 0 0 1-1.643-1.519 8.322 8.322 0 0 1-1.286-1.627c-.347-.58-.524-1.258-.524-2.015 0-.806.165-1.387.49-1.725.327-.34.786-.512 1.365-.512s1.038.173 1.366.512c.325.339.49.92.49 1.725v.792h3.09v-.576c0-1.717-.424-3.05-1.26-3.964C8.341.474 7.07.013 5.394.013c-1.677 0-2.949.461-3.782 1.371-.836.914-1.26 2.248-1.26 3.964 0 1.012.168 1.902.5 2.648.332.749.755 1.427 1.255 2.014a15.264 15.264 0 0 0 1.626 1.642 33.403 33.403 0 0 1 1.641 1.52 8.381 8.381 0 0 1 1.288 1.627c.347.58.523 1.259.523 2.015 0 .808-.177 1.384-.526 1.713-.348.326-.817.493-1.393.493-.577 0-1.046-.167-1.393-.493-.349-.328-.526-.904-.526-1.713v-1.441H.257v1.225c0 1.717.434 3.05 1.29 3.962.854.91 2.137 1.372 3.814 1.372s2.96-.461 3.814-1.372c.857-.913 1.291-2.246 1.291-3.962 0-1.01-.168-1.901-.5-2.648a8.323 8.323 0 0 0-1.255-2.014M16.281 12.723h4.8V9.84h-4.8V3.143h6.038V.26H13v21.426h9.32v-2.883h-6.038zM38.32 21.685h3.282V.26H38.32zM47.958 12.712h4.799V9.83h-4.8V3.143h6.039V.26h-9.32v21.426h9.32v-2.883h-6.038zM64.603 11.936a15.43 15.43 0 0 0-1.625-1.643 32.658 32.658 0 0 1-1.643-1.519 8.296 8.296 0 0 1-1.286-1.627c-.348-.58-.524-1.258-.524-2.015 0-.806.165-1.386.49-1.725.327-.34.786-.512 1.365-.512.578 0 1.038.173 1.366.512.325.339.49.92.49 1.725v.792h3.09v-.576c0-1.717-.424-3.05-1.26-3.964-.833-.91-2.105-1.371-3.78-1.371-1.677 0-2.95.461-3.783 1.371-.836.914-1.26 2.248-1.26 3.964 0 1.012.169 1.903.5 2.648.333.75.756 1.427 1.256 2.014a15.178 15.178 0 0 0 1.626 1.642 33.764 33.764 0 0 1 1.64 1.52 8.377 8.377 0 0 1 1.289 1.627c.346.58.522 1.258.522 2.015 0 .809-.177 1.385-.525 1.713-.348.326-.817.493-1.393.493-.577 0-1.046-.167-1.394-.493-.348-.328-.525-.904-.525-1.713v-1.441h-3.09v1.225c0 1.717.434 3.05 1.29 3.962.854.91 2.137 1.372 3.815 1.372 1.677 0 2.96-.461 3.813-1.372.857-.912 1.29-2.245 1.29-3.962 0-1.011-.167-1.902-.498-2.648a8.333 8.333 0 0 0-1.256-2.014M77.418 12.723h4.799V9.84h-4.8V3.143h6.039V.26h-9.32v21.426h9.32v-2.883h-6.038zM86.148 21.685h3.282V.26h-3.282zM97.323.013c-1.677 0-2.96.461-3.814 1.372-.857.913-1.29 2.247-1.29 3.963v11.25c0 1.716.433 3.05 1.29 3.963.853.91 2.136 1.372 3.814 1.372 1.677 0 2.96-.462 3.814-1.372.857-.914 1.291-2.247 1.291-3.963V9.84h-4.68v2.882h1.589v4.09c0 .809-.176 1.385-.525 1.713-.348.328-.817.493-1.393.493-.578 0-1.047-.165-1.394-.493-.348-.327-.525-.903-.525-1.712V5.132c0-.808.176-1.39.524-1.727.347-.338.816-.51 1.395-.51.576 0 1.046.172 1.394.51.348.34.524.92.524 1.727v2.214h3.091V5.348c0-1.716-.434-3.049-1.29-3.963C100.282.475 99 .013 97.322.013M108.497.26h-3.281v21.426h3.281v-8.974h4.187v8.974h3.345V.26h-3.345v9.57h-4.187zM121.742 21.685h3.281V3.143h3.655V.26h-10.591v2.883h3.655zM28.294 3.15v6.685h1.622c1.147 0 1.665-.351 2.047-.873.19-.26.421-.759.421-2.47 0-1.71-.27-2.198-.452-2.499-.38-.562-1.103-.843-2.167-.843h-1.47zm-3.281 18.526V.27h5.07c3.71 0 5.566 2.094 5.566 6.284 0 1.263-.2 2.335-.603 3.217-.402.882-1.108 1.594-2.118 2.135l3.401 9.771h-3.475l-2.937-9.14h-1.623v9.14h-3.281z">
+            </path>
+         </g>
+      </svg>
+
+      <nav>
+         <ul>
+            <li>
+               <a href="#">Projects</a>
+            </li>
+            <li>
+               <a href="#">Internal</a>
+            </li>
+            <li>
+               <a href="#">About</a>
+            </li>
+            <li>
+               <a href="#">Journal</a>
+            </li>
+            <li> <button>Contact</button></li>
+         </ul>
+
+
+      </nav>
+   </header>
+
+
+   <section>
+      <div class="back">
+         <a href="#">
+            <svg data-v-2433fd58="" data-v-45270a55="" width="21" height="10" viewBox="0 0 21 10"
+               xmlns="http://www.w3.org/2000/svg" class="point-left">
+               <path data-v-2433fd58=""
+                  d="M19.996 4.67L15.403.139a.444.444 0 00-.644 0 .444.444 0 000 .644l3.797 3.767H.459a.47.47 0 00-.459.46c0 .244.214.458.46.458h18.098L14.76 9.234a.444.444 0 00.338.766.466.466 0 00.337-.122l4.594-4.533.337-.337-.37-.337z"
+                  fill="#ADB0BE" fill-rule="evenodd"></path>
+            </svg>
+            Back to Carrers
+         </a>
+      </div>
+      <h1>Creative Front-End <br> Developer</h1>
+   </section>
+
+
+   <main>
+
+      <div class="block-container">
+         <p>Series Eight is a small, remote digital product studio with a team spanning across the UK and Europe. We
+            are design driven — bringing motion and experience to desktop and mobile.</p>
+         <p>We are are at an exciting stage in our development, having made it through our formative years (with a
+            few awards in tow 🏆) we are ready to put down some roots, define our processes, build a culture and
+            create a world class fully remote team.</p>
+
+         <p class="strong">
+            <strong>Looking for:</strong>
+         </p>
+         <p>We are looking for a Senior Front-End/Full-Stack Developer to lead this next stage. Someone that is
+            excited to help shape our company, to create the conditions for our developers to grow, and that doesn’t
+            mind getting their hands dirty building
+            out challenging projects for interactive startups.</p>
+
+
+         <ul>
+            <li>You know and love the basics: semantic HTML and pure CSS (SCSS)</li>
+            <li>You dream about Javascript and have experience with a framework or two (VUEJS, REACTJS)</li>
+            <li>Your sites load lightning fast ⚡</li>
+            <li>You know Git pretty well</li>
+            <li>You are a positive person and enjoy communicating with both team members and clients</li>
+            <li>You love to learn</li>
+         </ul>
+
+         <p class="strong">
+            <strong>Bonus points:</strong>
+         </p>
+         <ul>
+            <li>You enjoy bringing sites to life using CSS animation/animation libraries</li>
+            <li>You have open-source code on your Github profile</li>
+            <li>You have CMS experience — we currently use <a href="#">Craft</a>, <a href="#">Statamic</a> and <a
+                  href="#">Shopify</a></li>
+         </ul>
+
+         <p class="strong">
+            <strong>Perks:</strong>
+         </p>
+         <ul>
+            <li>Remote team building events</li>
+            <li>Personal time for personal projects</li>
+            <li> A budget for learning</li>
+         </ul>
+
+         <p class="strong">
+            <strong>Wanna join?</strong>
+         </p>
+         <p>Apply below</p>
+      </div>
+
+
+      <div class="form">
+         <div class="text-form">
+            <h3>Send us a message</h3>
+         </div>
+
+         <form action="">
+            <input type="text" placeholder="Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="text" placeholder="Link to portfalio (Github)">
+            <input type="text" placeholder="City, Country">
+            <div class="chk">
+               <label><input type="checkbox"> I acknowledge Series Eight's <a href="#">Terms &
+                     Conditions</a></label>
+            </div>
+            <button>Send Aplication</button>
+         </form>
+      </div>
+   </main>
+
+
+   <footer>
+      <div class="copyright">
+         <ul>
+            <li>© 2020 Series Eight</li>
+            <li>Termns + Privacy</li>
+            <li>Carrers</li>
+         </ul>
+      </div>
+
+      <div class="email">
+         <a href="#">info@serieseight.com</a>
+      </div>
+
+   </footer>
+
+   <script src="script.js" type="text/javascript">
+   </script>
+</body>
+
+</html>
