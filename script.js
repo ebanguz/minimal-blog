@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
 	const vacio = document.querySelector(".block-container");
 
 	window.addEventListener("scroll", () => {
-		header = document.querySelector("header");
 		header.classList.toggle("sticky", window.scrollY > 0);
 	});
 
