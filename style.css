@@ -6,6 +6,7 @@
 	--container-color: #fbfbfb;
 	--bg-color: white;
 	--footer: #161616;
+	--footer-li: #dfdfdf;
 }
 
 /* General */
@@ -228,6 +229,7 @@ footer {
 }
 .copyright li {
 	list-style-type: none;
+	color: var(--footer-li);
 }
 
 .email a {
